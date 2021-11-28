@@ -1,5 +1,4 @@
 import {
-    Caret,
     ColorText, IconBox,
     StyledTutorialBox, StyledUserdataBox,
     TutorialHeader,
@@ -11,6 +10,7 @@ import React from "react";
 import {AiFillLock} from "react-icons/ai";
 import {FaCheck, FaEnvelope} from "react-icons/all";
 import './TutorialBox.css';
+import Caret from "../Caret/Caret";
 
 const TutorialBox = ({phase}) => {
      return (

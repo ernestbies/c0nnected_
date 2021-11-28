@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled from "styled-components";
 
 export const StyledTutorialBox = styled.div`
     width: 70%;
@@ -98,41 +98,6 @@ export const UserdataLine = styled.p`
 
 export const ColorText = styled.span`
     color: ${({color}) => color};
-`;
-
-const showHide = keyframes`
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-`;
-
-export const Caret = styled.span`
-    display: inline-block;
-    background-color: white;
-    width: 10px;
-    height: 20px;
-    animation-name: ${showHide};
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(1);   
-    
-    @media (max-width: 576px) {
-        height: 18px;
-        width: 8px;
-    }
-    
-    @media (max-width: 360px) {
-        height: 16px;
-        width: 6px;
-    } 
 `;
 
 export const IconBox = styled.div`

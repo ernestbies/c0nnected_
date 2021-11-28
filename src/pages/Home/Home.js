@@ -26,7 +26,7 @@ const Home = () => {
                     <HomeSubtitle>{'is waiting for'}<ColoredText>{' u'}</ColoredText>{'. stay '}<ColoredText>{'connected'}</ColoredText>{'.'}</HomeSubtitle>
                     <AppInfo>{'Join online chat with other users. The chat works on the basis of the Hall of Fame, so carefully think about the message you want to leave — familiarize yourself with the rules and operation of the application and then join us!'}</AppInfo>
                     <ButtonsContainer>
-                        <PageButton title={'Chat room'} link={'https://ebies.netlify.app/hall-of-fame'} redirect/>
+                        <PageButton title={'Chat room'} link={'/chat-room'}/>
                         <PageButton title={'Tutorial'} link={'#tutorial'}/>
                     </ButtonsContainer>
                 </HomeHeaderWrapper>

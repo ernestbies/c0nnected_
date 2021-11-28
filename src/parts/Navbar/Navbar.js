@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <StyledNavbar>
-            <NavLink href={'localhost:3000'}>
+            <NavLink href={'https://c0nnected.netlify.app'}>
                 <NavLogo alt={'c0nnected_'} src={'/logo.svg'}/>
                 <HeaderText>{'c0nnected_'}</HeaderText>
             </NavLink>

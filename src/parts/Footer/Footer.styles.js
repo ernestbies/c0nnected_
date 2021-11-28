@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
     font-weight: 300;
     font-size: 12px;
     background-color: black;
-    border-top: 1px solid black;
+    border-top: 1px solid #383838;
     display: flex;
     flex-wrap: wrap;
 `;

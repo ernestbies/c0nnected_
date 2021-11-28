@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <StyledFooter>
             <FooterInfo>
-                <FooterLink href={'localhost:3000'}>
+                <FooterLink href={'https://c0nnected.netlify.app'}>
                     <FooterLogo alt={'c0nnected_'} src={'/logo.svg'}/>
                     <FooterHeaderText>{'c0nnected_'}</FooterHeaderText>
                 </FooterLink>
