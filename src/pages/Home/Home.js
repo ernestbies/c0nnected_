@@ -39,6 +39,7 @@ const Home = () => {
                 console.error('Error while fetching messages: ' + error);
             }
         });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
