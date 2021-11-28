@@ -135,7 +135,7 @@ export const ProjectsContainer = styled.div`
     }
 `;
 
-export const TutorialSection = styled.div`
+export const HomeDivSection = styled.div`
     display: flex;
     flex-direction: column;  
     width: 100%;
@@ -149,10 +149,53 @@ export const TutorialInfo = styled.div`
     color: white;
     margin-top: 100px;
     margin-bottom: 80px;
+    text-align: center;
     
     @media (max-width: 576px) {
         font-size: 28px;
         margin-top: 50px;
         margin-bottom: 40px;
+    }
+`;
+
+export const StatSection = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const StatContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+`;
+
+export const StatInfo = styled.p`
+    font-family: Montserrat;
+    font-size: 60px;
+    color: white;
+    font-weight: bold; 
+    margin: 0; 
+    text-align: center;
+    
+    @media (max-width: 576px) {
+        font-size: 50px;
+    }
+`;
+
+export const StatDesc = styled.span`
+    font-size: 15px;
+    font-family: Montserrat;
+    color: white; 
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    
+    @media (max-width: 576px) {
+        font-size: 14px;
     }
 `;

@@ -17,7 +17,7 @@ const faq = [
     {
         id: 3,
         q: 'What tools were used to create this page?',
-        a: 'This page was created using the React framework and JavaScript, HTML and CSS languages. Hall of Fame Console was created using HTML and CSS only. This page also uses the Redux library.'
+        a: 'This page was created using the React framework and JavaScript, HTML and CSS languages. Hall of Fame Console was created using HTML and CSS only.'
     },
     {
         id: 4,
