@@ -4,11 +4,11 @@ import {Img, LogoContainer, TitleContainer, WebsiteSubtitle, WebsiteTitle} from 
 const LogoPortfolio = () => {
 
     return (
-        <LogoContainer href={'https://ernestbies.netlify.app'}
+        <LogoContainer href={'https://ernestbies.com'}
                        title={'Ernest Bieś - portfolio website'} target={'_blank'} rel={'noreferrer'}>
             <Img src={'projects/portfolio-logo.svg'}/>
             <TitleContainer>
-                <WebsiteTitle>{'ERNEST BIEŚ'}</WebsiteTitle>
+                <WebsiteTitle>{'ernestbies.com'}</WebsiteTitle>
                 <WebsiteSubtitle>{'IT SPECIALIST & PROGRAMMER'}</WebsiteSubtitle>
             </TitleContainer>
         </LogoContainer>
