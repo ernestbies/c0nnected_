@@ -13,9 +13,9 @@ export const TitleContainer = styled.div`
     margin-left: 10px;
 `;
 
-export const Img = styled.img`
-    width: 40px;
-    height: 40px;
+export const StyledText = styled.p`
+    font-size: 32px;
+    font-family: Roboto Condensed;
 `;
 
 export const WebsiteTitle = styled.p`
@@ -36,4 +36,3 @@ export const WebsiteSubtitle = styled.p`
     margin: 1px 0 0 0;
     color: #f0f0f0;
 `;
-
