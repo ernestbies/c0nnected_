@@ -10,3 +10,10 @@
   font-style: normal;
   src: url("./assets/fonts/Zen-Light.ttf") format('truetype');
 }
+
+@font-face {
+  font-family: 'Zen';
+  font-weight: 700;
+  font-style: normal;
+  src: url("./assets/fonts/Zen-Bold.ttf") format('truetype');
+}
