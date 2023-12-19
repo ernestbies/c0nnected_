@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledLogo = styled.img`
     pointer-events: none;
+    filter: invert(100%);
 `;
 
 export const LogoContainer = styled.a`
